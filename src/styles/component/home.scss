@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  color: rgb(9, 9, 54);
+  background-color: #faf9f6;
+  #title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  #img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 80%;
+    height: 600px;
+  }
+  #description {
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    background-color: black;
+    opacity: 0.6;
+    color: whitesmoke;
+    border-radius: 30px;
+  }
+  #date {
+    text-align: center;
+  }
+}
+.header-Contaier {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  #header-left {
+    margin-right: 10%;
+    button,
+    input {
+      margin-top: 30px;
+      margin-bottom: auto;
+    }
+  }
+  #image-title {
+    margin-left: 10%;
+  }
+}
