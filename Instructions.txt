@@ -1,0 +1,3 @@
+In components folder there is a file name home.js 
+Relpace url there with given url to configure on your local PC.
+Url= https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
